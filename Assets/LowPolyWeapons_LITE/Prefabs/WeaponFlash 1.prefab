@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6721768867166574774}
   - component: {fileID: 8858244959952700840}
   m_Layer: 0
-  m_Name: WeaponFlash
+  m_Name: WeaponFlash 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44,7 +44,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 2
-  m_Color: {r: 1, g: 1, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_Intensity: 512
   m_Range: 4
   m_SpotAngle: 30

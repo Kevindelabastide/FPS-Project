@@ -169,14 +169,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da50529700fdfab4e93ea8fecc013999, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gun
+  droppedWeapon: {fileID: 4965438261709640327, guid: 574e4faa4258de944be87cae25c53179, type: 3}
   reloadTime: 1
   fireRate: 0.3
   maxSize: 10
-  bullet: {fileID: 5341742223406746680, guid: 9c3cddd6060b7cc4eadfb9cefcf6e7db, type: 3}
+  bullet: {fileID: 3575611928538805115, guid: 745a87995944ab94caa447ec2061dbc4, type: 3}
   bulletSpawnPoint: {fileID: 5771127016697855175}
   recoilDistance: 0.05
   recoilSpeed: 10
-  weaponFlash: {fileID: 4421185694065772889, guid: e44e76aa6cc807a4d933ca447c612d9c, type: 3}
+  weaponFlash: {fileID: 4421185694065772889, guid: 9b0d419000cc50c4eac1148eb97a51e1, type: 3}
 --- !u!1 &6650470630134122455
 GameObject:
   m_ObjectHideFlags: 0

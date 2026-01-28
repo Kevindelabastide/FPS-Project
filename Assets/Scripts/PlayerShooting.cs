@@ -7,6 +7,16 @@ public class PlayerShooting : MonoBehaviour
     private bool isHoldingShoot;
     public Transform gunHolder;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+  
+    public void OnDrop()
+    {
+        if (gun != null)
+        {
+            gun.Drop();
+            gun = null;
+        }
+    }
+
     void OnShoot()
     {
         isHoldingShoot = true;
