@@ -5,6 +5,7 @@ public class PlayerShooting : MonoBehaviour
 {
     public Gun gun;
     private bool isHoldingShoot;
+    public Transform gunHolder;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void OnShoot()
     {
